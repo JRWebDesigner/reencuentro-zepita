@@ -1,10 +1,10 @@
 import { createFileRoute } from "@tanstack/react-router";
-import { Countdown } from "@/components/Countdown";
-import { Reveal } from "@/components/Reveal";
-import { ReservaForm } from "@/components/ReservaForm";
-import heroAsset from "@/assets/hero.jpg.asset.json";
-import escudoAsset from "@/assets/escudo.jpg.asset.json";
-import horaLocaAsset from "@/assets/horaloca.jpg.asset.json";
+import { Countdown } from "../components/Countdown";
+import { Reveal } from "../components/Reveal";
+import { ReservaForm } from "../components/ReservaForm";
+import heroAsset from "../assets/hero.jpg.asset.json";
+import escudoAsset from "../assets/escudo.jpg.asset.json";
+import horaLocaAsset from "../assets/horaloca.jpg.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
