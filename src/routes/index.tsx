@@ -165,33 +165,72 @@ function Index() {
       </section>
 
       {/* PRECIOS */}
-      <section className="mx-auto max-w-5xl px-5 pb-24">
-        <Reveal>
-          <h2 className="text-center font-display text-5xl text-graffiti sm:text-7xl">
-            Precio de la manilla
-          </h2>
-        </Reveal>
-        <div className="mt-12 grid gap-6 sm:grid-cols-2">
-          <Reveal>
-            <div className="neon-card tilt-hover relative h-full overflow-hidden rounded-3xl p-8 text-center">
-              <span className="absolute right-5 top-5 rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-widest text-accent-foreground">
-                🔥 Preventa
-              </span>
-              <div className="font-display text-7xl text-graffiti">Bs 100</div>
-              <p className="mt-3 text-muted-foreground">Hasta el 15 de septiembre</p>
-            </div>
-          </Reveal>
-          <Reveal delay={120}>
-            <div className="neon-card h-full rounded-3xl p-8 text-center opacity-80">
-              <div className="font-display text-7xl">Bs 110</div>
-              <p className="mt-3 text-muted-foreground">Después del 15 de septiembre</p>
-            </div>
-          </Reveal>
-        </div>
-        <p className="mt-8 text-center font-display text-2xl text-neon-lime">
-          👉 ¡Aprovecha la preventa y asegura tu manilla!
+     <section className="mx-auto max-w-5xl px-5 pb-24">
+  <Reveal>
+    <h2 className="text-center font-display text-5xl text-graffiti sm:text-7xl">
+      Precio de la manilla
+    </h2>
+  </Reveal>
+
+  <div className="mt-12 grid gap-6 md:grid-cols-3">
+    {/* Preventa */}
+    <Reveal>
+      <div className="neon-card tilt-hover relative h-full overflow-hidden rounded-3xl p-8 text-center">
+        <span className="absolute right-5 top-5 rounded-full bg-accent px-3 py-1 text-xs font-bold uppercase tracking-widest text-accent-foreground">
+          🔥 Preventa
+        </span>
+
+        <div className="font-display text-6xl text-graffiti">Bs 100</div>
+
+        <p className="mt-3 text-muted-foreground">
+          📅 Hasta el 15 de septiembre
         </p>
-      </section>
+      </div>
+    </Reveal>
+
+    {/* Segunda etapa */}
+    <Reveal delay={120}>
+      <div className="neon-card h-full rounded-3xl p-8 text-center">
+        <span className="inline-block rounded-full bg-accent/20 px-3 py-1 text-xs font-bold uppercase tracking-widest">
+          🎟️ Venta anticipada
+        </span>
+
+        <div className="mt-5 font-display text-6xl text-graffiti">
+          Bs 130
+        </div>
+
+        <p className="mt-3 text-muted-foreground">
+          📅 Del 15 al 30 de septiembre
+        </p>
+      </div>
+    </Reveal>
+
+    {/* Precio final */}
+    <Reveal delay={240}>
+      <div className="neon-card h-full rounded-3xl p-8 text-center opacity-90">
+        <span className="inline-block rounded-full bg-muted px-3 py-1 text-xs font-bold uppercase tracking-widest">
+          🎫 Precio final
+        </span>
+
+        <div className="mt-5 font-display text-6xl">
+          Bs 150
+        </div>
+
+        <p className="mt-3 text-muted-foreground">
+          📅 Desde el 1 de octubre
+        </p>
+
+        <p className="mt-2 text-sm text-muted-foreground">
+          Online y en puerta
+        </p>
+      </div>
+    </Reveal>
+  </div>
+
+  <p className="mt-8 text-center font-display text-2xl text-neon-lime">
+    👉 ¡Aprovecha la preventa y asegura tu manilla!
+  </p>
+</section>
 
       {/* RESERVAS */}
       <section id="reservas" className="mx-auto max-w-6xl px-5 pb-24">
