@@ -200,7 +200,7 @@ function Index() {
         </div>
 
         <p className="mt-3 text-muted-foreground">
-          📅 Del 15 al 30 de septiembre
+          📅 Del 01 al 10 de septiembre
         </p>
       </div>
     </Reveal>
