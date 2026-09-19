@@ -183,7 +183,7 @@ function Index() {
         <div className="font-display text-6xl text-graffiti">Bs 100</div>
 
         <p className="mt-3 text-muted-foreground">
-          📅 Hasta el 15 de septiembre
+          📅 Hasta el 30 de septiembre
         </p>
       </div>
     </Reveal>
@@ -200,7 +200,7 @@ function Index() {
         </div>
 
         <p className="mt-3 text-muted-foreground">
-          📅 Del 01 al 10 de septiembre
+          📅 Del 01 al 09 de octubre 
         </p>
       </div>
     </Reveal>
@@ -217,7 +217,7 @@ function Index() {
         </div>
 
         <p className="mt-3 text-muted-foreground">
-          📅 Desde el 1 de octubre
+          📅 Desde el 10 de octubre
         </p>
 
         <p className="mt-2 text-sm text-muted-foreground">
